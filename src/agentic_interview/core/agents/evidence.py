@@ -7,6 +7,7 @@ from pydantic import ValidationError
 
 
 class SignalExtractionAgent:
+    """Evidence-of-Skill Extractor Agent"""
     def __init__(self, llm: LLMClient):
         self.llm = llm
 
